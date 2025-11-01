@@ -4,13 +4,19 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>helloooooooo</div>
     </>
   );
 }
+function Navbar() {
+  return (
+    <div>
+      <h1>salam</h1>
+    </div>
+  );
+}
 
 export default App;
+export default Navbar;
