@@ -3,19 +3,19 @@
 // import viteLogo from "/vite.svg";
 import "./App.css";
 
+function Navbar() {
+  return (
+    <div>
+      <h1>salam</h1>
+    </div>
+  );
+}
 function App() {
   return (
     <>
       <Navbar />
       <div>helloooooooo</div>
     </>
-  );
-}
-function Navbar() {
-  return (
-    <div>
-      <h1>salam</h1>
-    </div>
   );
 }
 
