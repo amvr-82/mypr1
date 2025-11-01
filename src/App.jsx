@@ -2,14 +2,8 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
+import "./component/footer/Navbar";
 
-function Navbar() {
-  return (
-    <div>
-      <h1>salam</h1>
-    </div>
-  );
-}
 function App() {
   return (
     <>
