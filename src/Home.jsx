@@ -6,7 +6,9 @@ function Home() {
       <Navbar />
 
       <div>
-        <h2 className="mt-[260px] bg-red-500">سلام بر مقاله</h2>
+        <h2 className="mt-[65px] p-5 mt-10 flex justify-end font-bold font-size">
+          سلام بر مقاله
+        </h2>
       </div>
     </div>
   );

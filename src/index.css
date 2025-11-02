@@ -1,5 +1,5 @@
 @import "tailwindcss";
-* {
+/* * {
   font-family: FontName;
   src: url("assets/font/Vazir-Black-FD.eot");
   src: url("assets/font/Vazir-Black-FD.eot") format(".eot"),
@@ -9,7 +9,7 @@
   font-style: normal;
   font-size: 18px;
   color: black;
-}
+} */
 h1,
 h2,
 h3,
