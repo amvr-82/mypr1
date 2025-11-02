@@ -1,38 +1,13 @@
 {
-  "articles" :{
-    "status":true,
-    "data":[
+  "articles": {
+    "status": true,
+    "data": [
       {
-       "id": 0,
-       "imageUrl":"datad",
-       "title":"dad",
-       "raedingTime":5
-       }
-   ]
- }
-
+        "id": 0,
+        "imageUrl": "datad",
+        "title": "dad",
+        "readingTime": 5
+      }
+    ]
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://reqres.in/users
-https://reqres.in/article
-https://reqres.in/posts
