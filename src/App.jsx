@@ -8,7 +8,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <div>helloooooooo</div>
+      <div>صفحه اصلی</div>
+      <div> صفحع2</div>
+      <div>صفحه اصلی</div>
+      <div>صفحه اصلی</div>
     </>
   );
 }
