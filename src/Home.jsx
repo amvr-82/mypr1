@@ -13,12 +13,15 @@ function Home() {
         </h2>
       </div>
 
-      <Article
-        title="Mastering TailwindCSS"
-        author="145"
-        date="Nov 1, 2025"
-        summary="sa"
-      />
+      <div className="flex justify-end  ">
+        <Article
+          title="5465651 TailwindCSS"
+          author="21456+1"
+          date="Nov 1, 2025"
+          summary="sa"
+          src="src\assets\20250909_1656_لوگوی حروف اناشید_simple_compose_01k4qadx83f0ps7trqrezg63ej.png"
+        />
+      </div>
     </div>
   );
 }
