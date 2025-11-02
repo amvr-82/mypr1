@@ -1,8 +1,6 @@
-// import styled from "./srccomponent\navabr\navbar.module.css ";
-
 function Navbar() {
   return (
-    <ul>
+    <ul className="bg-red-600">
       <li>فهرست</li>
       <li>خدمات</li>
       <li>بلاک</li>
