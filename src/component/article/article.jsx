@@ -7,7 +7,7 @@ function Article({ title, author, date, summary, src }) {
         <div className="p-6  items-center">
           <img
             src={src}
-            className="  rounded-[15px] w-[200px] h-[200px] p-[5px] "
+            className="  rounded-[15px] w-full max-w-200px h-auto p-[5px] "
           ></img>
           <h2 className="text-xl font-bold mb-2 text-gray-800 hover:text-blue-600 transition-colors duration-200">
             {title}
