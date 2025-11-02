@@ -1,6 +1,6 @@
 import React from "react";
-import Article from "./component/Article";
 import Navbar from "./component/Navbar/Navbar";
+import Article from "./component/Article/Article";
 
 function Home() {
   return (
@@ -15,9 +15,9 @@ function Home() {
 
       <Article
         title="Mastering TailwindCSS"
-        author="Amirhossein"
+        author="145"
         date="Nov 1, 2025"
-        summary="A guide to using TailwindCSS for building modern, responsive UIs quickly."
+        summary="sa"
       />
     </div>
   );
