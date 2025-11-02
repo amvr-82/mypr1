@@ -3,7 +3,7 @@ function Navbar() {
     <div>
       <ul
         className="bg-gray-100 shadow-md rounded-[15px] flex items-center justify-start p-2 gap-4
-        fixed top-0  w-full flex-row-reverse  "
+  fixed top-0  left-1/2 -translate-x-1/2  w-[95%] flex-row-reverse"
       >
         <img
           src="src\assets\20250909_1656_لوگوی حروف اناشید_simple_compose_01k4qadx83f0ps7trqrezg63ej.png"
