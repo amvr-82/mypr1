@@ -1,7 +1,12 @@
 {
   "articles" :{
     "status":true,
-    "data":[]
+    "data":[
+      "id": 0,
+      "email": "datad",
+      "first_name": "dad",
+      "last_name": "dad",
+      "avatar":"dad" ]
   }
 
 }
