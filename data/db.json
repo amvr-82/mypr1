@@ -1,11 +1,12 @@
 {
   "articles" :{
     "status":true,
-    "data":[
+    "data":[{
       "id": 0,
       "imageurl":"datad",
       "title":"dad",
-      "raeding":"dad"
+      "raeding":5
+    }
   ]
   }
 
