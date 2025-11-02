@@ -2,13 +2,13 @@ function Navbar() {
   return (
     <div>
       <h1
-        className="bg-white shadow-2xl flex justify-start p-4 gap-4
+        className=" flex justify-start p-4 gap-4
      fixed top-0  w-full flex-row-reverse  "
       >
         ریکت
       </h1>
       <ul
-        className="bg-white shadow-2xl flex justify-start p-4 gap-4
+        className="bg-gray-100 shadow-md rounded-[15px] flex justify-start p-4 gap-4
      fixed top-0  w-full flex-row-reverse  "
       >
         <li>فهرست</li>
