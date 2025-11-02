@@ -2,18 +2,10 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
-import Navbar from "./component/footer/Navbar";
+import Navbar from "./component/navabr/Navbar";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <div>صفحه اصلی</div>
-      <div> صفحع2</div>
-      <div>صفحه اصلی</div>
-      <div>صفحه اصلی</div>
-    </>
-  );
+  return <Navbar />;
 }
 
 export default App;
