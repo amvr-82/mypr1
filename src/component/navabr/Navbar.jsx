@@ -2,12 +2,13 @@ function Navbar() {
   return (
     <div>
       <ul
-        className="bg-gray-100 shadow-md rounded-[15px] flex items-center justify-start p-4 gap-4
+        className="bg-gray-100 shadow-md rounded-[15px] flex items-center justify-start p-2 gap-4
      fixed top-0  w-full flex-row-reverse  "
       >
-        <h1 className="font-extrabold text-[28px] bg-neutral-200 p-2 rounded-[20px]">
-          ریکت
-        </h1>
+        <img
+          src="src\assets\20250909_1656_لوگوی حروف اناشید_simple_compose_01k4qadx83f0ps7trqrezg63ej.png"
+          className="  rounded-[50%] w-[65px] h-[65px] "
+        ></img>
         <li>فهرست</li>
         <li>خدمات</li>
         <li>بلاگ</li>
