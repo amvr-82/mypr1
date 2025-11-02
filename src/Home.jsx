@@ -1,27 +1,57 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-import Article from "./components/Article/Article";
+import Navbar from "./component/Navbar/Navbar";
+import Article from "./component/Article/Article";
 
 function Home() {
-  const mozo = ["technology", "ai", "react", "design", "startup", "coding"];
-
-  const articles = mozo.map((topic, i) => ({
-    title: `مقاله درباره ${topic}`,
-    author: i % 2 === 0 ? "من" : "سامان",
-    date: `Nov ${i + 1}, 2025`,
-    summary: `این خلاصه‌ای کوتاه از مقاله ${topic} هست.`,
-    src: `https://source.unsplash.com/400x250/?${topic}&sig=${i}`,
-  }));
+  const articles = [
+    {
+      title: "دیتا اول",
+      author: "من ",
+      date: "Nov 1, 2025",
+      summary: "خلاصه 1",
+      src: "./src/assets/aks.avif",
+    },
+    {
+      title: "دیتا اول",
+      author: "من ",
+      date: "Nov 1, 2025",
+      summary: "خلاصه 1",
+      src: "./src/assets/aks.avif",
+    },
+    {
+      title: " دیتا دوم",
+      author: "سامان",
+      date: "Nov 2, 2025",
+      summary: "خلاصه دوم",
+      src: "./src/assets/aks.avif",
+    },
+    {
+      title: "دیتا اول",
+      author: "من ",
+      date: "Nov 1, 2025",
+      summary: "خلاصه 1",
+      src: "./src/assets/aks.avif",
+    },
+    {
+      title: " دیتا دوم",
+      author: "سامان",
+      date: "Nov 2, 2025",
+      summary: "خلاصه دوم",
+      src: "./src/assets/aks.avif",
+    },
+  ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div>
       <Navbar />
 
-      <h2 className="mt-[85px] p-5 flex justify-end font-bold text-[25px] text-gray-800">
-        سلام بر مقاله‌ها 😎
-      </h2>
+      <div>
+        <h2 className="mt-[85px] p-5 flex justify-end font-bold text-[25px]">
+          سلام بر مقاله
+        </h2>
+      </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+      <div className="grid grid-cols-4 items-end gap-4 p-4">
         {articles.map((article, index) => (
           <Article key={index} {...article} />
         ))}
