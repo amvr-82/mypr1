@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./component/Navbar/Navbar";
 import Article from "./component/Article/Article";
 
@@ -40,7 +40,11 @@ function Home() {
       src: "./src/assets/aks.avif",
     },
   ];
-
+  console.log(1);
+  useEffect(() => {
+    console.log(2);
+  }, []);
+  console.log(3);
   return (
     <div>
       <Navbar />
