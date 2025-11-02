@@ -3,7 +3,7 @@ import React from "react";
 function Article({ title, author, date, summary, src }) {
   return (
     <div className="flex justify-center items-center align-middle w-full pt-10">
-      <div className="w-auto h-auto   bg-gray-100 shadow-lg rounded-xl  hover:shadow-2xl hover:scale-103 transition-all  duration-300 m-4">
+      <div className="w-auto h-auto   bg-gray-100 shadow-lg rounded-xl  hover:shadow-2xl hover:scale-101 transition-all  duration-300 m-4">
         <div className="p-6  items-center">
           <img
             src={src}
@@ -16,8 +16,8 @@ function Article({ title, author, date, summary, src }) {
             By {author} | {date}
           </p>
           <p className="text-gray-700 text-base mb-4">{summary}</p>
-          <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-200">
-            Read More . . .
+          <button className=" left-1/2 px-4 py-2 bg-red-900 text-white rounded hover:bg-red-800 transition-colors duration-200">
+            بزن بیشتر
           </button>
         </div>
       </div>
