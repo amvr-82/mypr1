@@ -1,50 +1,89 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./component/Navbar/Navbar";
 import Article from "./component/Article/Article";
 
 function Home() {
-  const articles = [
-    {
-      title: "دیتا اول",
-      author: "من ",
-      date: "Nov 1, 2025",
-      summary: "خلاصه 1",
-      src: "./src/assets/aks.avif",
-    },
-    {
-      title: "دیتا اول",
-      author: "من ",
-      date: "Nov 1, 2025",
-      summary: "خلاصه 1",
-      src: "./src/assets/aks.avif",
-    },
-    {
-      title: " دیتا دوم",
-      author: "سامان",
-      date: "Nov 2, 2025",
-      summary: "خلاصه دوم",
-      src: "./src/assets/aks.avif",
-    },
-    {
-      title: "دیتا اول",
-      author: "من ",
-      date: "Nov 1, 2025",
-      summary: "خلاصه 1",
-      src: "./src/assets/aks.avif",
-    },
-    {
-      title: " دیتا دوم",
-      author: "سامان",
-      date: "Nov 2, 2025",
-      summary: "خلاصه دوم",
-      src: "./src/assets/aks.avif",
-    },
-  ];
-  console.log(1);
+  const [articles, setArticles] = useState();
+  // const articles = [
+
+  //   {
+  //     title: "دیتا اول",
+  //     author: "من ",
+  //     date: "Nov 1, 2025",
+  //     summary: "خلاصه 1",
+  //     src: "./src/assets/aks.avif",
+  //   },
+  //   {
+  //     title: "دیتا اول",
+  //     author: "من ",
+  //     date: "Nov 1, 2025",
+  //     summary: "خلاصه 1",
+  //     src: "./src/assets/aks.avif",
+  //   },
+  //   {
+  //     title: " دیتا دوم",
+  //     author: "سامان",
+  //     date: "Nov 2, 2025",
+  //     summary: "خلاصه دوم",
+  //     src: "./src/assets/aks.avif",
+  //   },
+  //   {
+  //     title: "دیتا اول",
+  //     author: "من ",
+  //     date: "Nov 1, 2025",
+  //     summary: "خلاصه 1",
+  //     src: "./src/assets/aks.avif",
+  //   },
+  //   {
+  //     title: " دیتا دوم",
+  //     author: "سامان",
+  //     date: "Nov 2, 2025",
+  //     summary: "خلاصه دوم",
+  //     src: "./src/assets/aks.avif",
+  //   },
+  // ];
+  // console.log(1);
   useEffect(() => {
-    console.log(2);
+    setArticles([
+      {
+        title: "دیتا اول",
+        author: "من ",
+        date: "Nov 1, 2025",
+        summary: "خلاصه 1",
+        src: "./src/assets/aks.avif",
+      },
+      {
+        title: "دیتا اول",
+        author: "من ",
+        date: "Nov 1, 2025",
+        summary: "خلاصه 1",
+        src: "./src/assets/aks.avif",
+      },
+      {
+        title: " دیتا دوم",
+        author: "سامان",
+        date: "Nov 2, 2025",
+        summary: "خلاصه دوم",
+        src: "./src/assets/aks.avif",
+      },
+      {
+        title: "دیتا اول",
+        author: "من ",
+        date: "Nov 1, 2025",
+        summary: "خلاصه 1",
+        src: "./src/assets/aks.avif",
+      },
+      {
+        title: " دیتا دوم",
+        author: "سامان",
+        date: "Nov 2, 2025",
+        summary: "خلاصه دوم",
+        src: "./src/assets/aks.avif",
+      },
+    ]);
   }, []);
   console.log(3);
+
   return (
     <div>
       <Navbar />
