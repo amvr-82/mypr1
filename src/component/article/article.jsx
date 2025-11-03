@@ -2,6 +2,7 @@ import React from "react";
 
 function Article({ title, author, date, summary, src }) {
   return (
+    //کارت مقالست ها
     <div className="flex justify-center items-center align-middle w-full pt-10">
       <div className="w-auto h-auto   bg-gray-100 shadow-lg rounded-xl  hover:shadow-2xl hover:scale-101 transition-all  duration-300 m-4">
         <div className="p-6  items-center">
