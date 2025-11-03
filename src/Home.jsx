@@ -10,6 +10,7 @@ function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    setLoading(true);
     axios
       .get("http://localhost:8000/articles")
       .then((res) => {
