@@ -10,7 +10,6 @@ function Home() {
     axios
       .get("http://localhost:8000/articles")
       .then((res) => {
-        console.log(res.data);
         setArticles(res.data);
       })
       .catch((err) => {
