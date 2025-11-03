@@ -3,6 +3,8 @@ import Navbar from "./component/Navbar/Navbar";
 import Article from "./component/Article/Article";
 import axios, { isCancel, AxiosError } from "axios";
 
+console.log(axios.isCancel("something"));
+
 function Home() {
   const [articles, setArticles] = useState([]);
 
