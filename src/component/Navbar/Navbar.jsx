@@ -14,22 +14,28 @@ function Navbar() {
 
         <ul className="flex gap-6 text-white text-sm font-medium flex-row-reverse">
           <li>
-            <a href="#" className="hover:text-indigo-400 transition-colors">
+            <a href="/" className="hover:text-indigo-400 transition-colors">
               خانه
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-indigo-400 transition-colors">
+            <a
+              href="/AbouteUs"
+              className="hover:text-indigo-400 transition-colors"
+            >
               درباره ما
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-indigo-400 transition-colors">
+            <a
+              href="/Contact"
+              className="hover:text-indigo-400 transition-colors"
+            >
               پروژه‌ها
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-indigo-400 transition-colors">
+            <a href="/Blog" className="hover:text-indigo-400 transition-colors">
               تماس با ما
             </a>
           </li>

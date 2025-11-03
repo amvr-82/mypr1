@@ -5,9 +5,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/" element={<AbouteUs />} />
-      <Route path="/" element={<Contact />} />
-      <Route path="/" element={<Blog />} />
+      <Route path="/AbouteUs" element={<AbouteUs />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Blog" element={<Blog />} />
     </Routes>
   );
 }
