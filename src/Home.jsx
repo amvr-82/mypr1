@@ -6,7 +6,6 @@ import axios from "axios";
 
 function Home() {
   const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -29,31 +28,24 @@ function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-
       <div>
         <h2 className="mt-[85px] p-5 flex justify-end font-bold text-[25px]">
           سلام بر مقاله
         </h2>
       </div>
-
       {loading && (
         <p className="text-center text-gray-500 mt-10">در حال بارگذاری...</p>
       )}
-      {error && <p className="text-center text-red-500 mt-10">{error}</p>}
-
-      {!loading && !error && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-          {articles.length > 0 ? (
-            articles.map((article, index) => (
-              <Article key={index} {...article} />
-            ))
-          ) : (
-            <p className="col-span-full text-center text-gray-400">
-              هنوز مقاله‌ای وجود ندارد 😅
-            </p>
-          )}
-        </div>
-      )}
+      <p className="text-center text-red-500 mt-10">{error}</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+        {articles.length > 0 ? (
+          articles.map((article, index) => <Article key={index} {...article} />)
+        ) : (
+          <p className="col-span-full text-center text-gray-400">
+            هنوز مقاله‌ای وجود ندارد 😅
+          </p>
+        )}
+      </div>
 
       <Footer />
     </div>
