@@ -1,21 +1,42 @@
+import React from "react";
+
 function Navbar() {
   return (
-    <div>
-      <ul
-        className="bg-gray-100 shadow-md rounded-[15px] flex items-center justify-start p-2 gap-4
-  fixed top-0  left-1/2 -translate-x-1/2  w-[95%] flex-row-reverse"
-      >
-        <img
-          src="src\assets\20250909_1656_لوگوی حروف اناشید_simple_compose_01k4qadx83f0ps7trqrezg63ej.png"
-          className="  rounded-[50%] w-[65px] h-[65px] "
-        ></img>
-        <li>فهرست</li>
-        <li>خدمات</li>
-        <li>بلاگ</li>
-        <li>تماس با ما</li>
-        <li>درباره ما</li>
-      </ul>
-    </div>
+    <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md z-50">
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-start gap-4 h-20 flex-row-reverse">
+        <div className="flex items-center gap-3">
+          <img
+            src="src/assets/20250909_1656_لوگوی حروف اناشید_simple_compose_01k4qadx83f0ps7trqrezg63ej.png"
+            alt="لوگو"
+            className="w-16 h-16 rounded-full"
+          />
+        </div>
+
+        {/* لینک‌ها */}
+        <ul className="flex gap-6 text-white text-sm font-medium flex-row-reverse">
+          <li>
+            <a href="#" className="hover:text-indigo-400 transition-colors">
+              خانه
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-indigo-400 transition-colors">
+              درباره ما
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-indigo-400 transition-colors">
+              پروژه‌ها
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-indigo-400 transition-colors">
+              تماس با ما
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 }
 
