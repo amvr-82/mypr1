@@ -6,11 +6,10 @@ import axios from "axios";
 
 function Home() {
   const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setLoading(true);
     axios
       .get("http://localhost:8000/articles")
       .then((res) => {
@@ -24,7 +23,8 @@ function Home() {
       .catch((err) => {
         console.error("خطا در گرفتن مقاله‌ها:", err);
         setError("مشکلی در ارتباط با سرور پیش آمد 😕");
-      });
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   return (
