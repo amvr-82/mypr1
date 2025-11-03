@@ -3,40 +3,60 @@
     "status": true,
     "data": [
       {
-        "id": 6,
-        "imageUrl": "./src/assets/aks.avif",
-        "title": "dad6",
-        "readingTime": 56
+        "title": "دیتا اول",
+        "author": "من ",
+        "date": "Nov 1, 2025",
+        "summary": "خلاصه 1",
+        "src": "./src/assets/aks.avif"
       },
       {
-        "id": 5,
-        "imageUrl": "./src/assets/aks.avif",
-        "title": "dad5",
-        "readingTime": 55
+        "title": " دیتا دوم",
+        "author": "سامان",
+        "date": "Nov 2, 2025",
+        "summary": "خلاصه دوم",
+        "src": "./src/assets/aks.avif"
       },
       {
-        "id": 4,
-        "imageUrl": "./src/assets/aks.avif",
-        "title": "dad4",
-        "readingTime": 54
+        "title": " دیتا دوم",
+        "author": "سامان",
+        "date": "Nov 2, 2025",
+        "summary": "خلاصه دوم",
+        "src": "./src/assets/aks.avif"
       },
       {
-        "id": 3,
-        "imageUrl": "./src/assets/aks.avif",
-        "title": "dad3",
-        "readingTime": 53
+        "title": " دیتا دوم",
+        "author": "سامان",
+        "date": "Nov 2, 2025",
+        "summary": "خلاصه دوم",
+        "src": "./src/assets/aks.avif"
       },
       {
-        "id": 2,
-        "imageUrl": "./src/assets/aks.avif",
-        "title": "dad2",
-        "readingTime": 52
+        "title": " دیتا دوم",
+        "author": "سامان",
+        "date": "Nov 2, 2025",
+        "summary": "خلاصه دوم",
+        "src": "./src/assets/aks.avif"
       },
       {
-        "id": 1,
-        "imageUrl": "./src/assets/aks.avif",
-        "title": "dad1",
-        "readingTime": 51
+        "title": " دیتا دوم",
+        "author": "سامان",
+        "date": "Nov 2, 2025",
+        "summary": "خلاصه دوم",
+        "src": "./src/assets/aks.avif"
+      },
+      {
+        "title": " دیتا دوم",
+        "author": "سامان",
+        "date": "Nov 2, 2025",
+        "summary": "خلاصه دوم",
+        "src": "./src/assets/aks.avif"
+      },
+      {
+        "title": " دیتا دوم",
+        "author": "سامان",
+        "date": "Nov 2, 2025",
+        "summary": "خلاصه دوم",
+        "src": "./src/assets/aks.avif"
       }
     ]
   }
