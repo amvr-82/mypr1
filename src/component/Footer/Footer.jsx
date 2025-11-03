@@ -40,7 +40,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* بخش شبکه‌های اجتماعی */}
         <div>
           <h2 className="text-lg font-semibold text-white mb-3">
             ما را دنبال کنید
