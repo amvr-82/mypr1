@@ -6,27 +6,23 @@ import axios from "axios";
 
 function Home() {
   const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(true); // اضافه برای وضعیت لودینگ
+  const [loading, setLoading] = useState(false); // اضافه برای وضعیت لودینگ
   const [error, setError] = useState(null); // اضافه برای هندل ارور
 
   useEffect(() => {
     axios
       .get("http://localhost:8000/articles")
       .then((res) => {
-        // اطمینان از اینکه داده آرایه است
-        if (Array.isArray(res.data)) {
-          setArticles(res.data);
+        if (Array.isArray(res.data.data)) {
+          setArticles(res.data.data);
         } else {
-          console.error("داده دریافتی آرایه نیست:", res.data);
+          console.error("داده دریافتی آرایه نیست:", res.data.data);
           setArticles([]);
         }
       })
       .catch((err) => {
         console.error("خطا در گرفتن مقاله‌ها:", err);
         setError("مشکلی در ارتباط با سرور پیش آمد 😕");
-      })
-      .finally(() => {
-        setLoading(false);
       });
   }, []);
 
@@ -40,7 +36,6 @@ function Home() {
         </h2>
       </div>
 
-      {/* نمایش وضعیت‌ها */}
       {loading && (
         <p className="text-center text-gray-500 mt-10">در حال بارگذاری...</p>
       )}
