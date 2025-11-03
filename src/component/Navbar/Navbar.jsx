@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md z-50">
+    <nav className="fixed top-0 left-1/2 -translate-x-1/2 w-[95%] bg-gray-900 shadow-md z-50 rounded-b-[15px]">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-start gap-4 h-20 flex-row-reverse">
         <div className="flex items-center gap-3">
           <img
@@ -12,7 +12,6 @@ function Navbar() {
           />
         </div>
 
-        {/* لینک‌ها */}
         <ul className="flex gap-6 text-white text-sm font-medium flex-row-reverse">
           <li>
             <a href="#" className="hover:text-indigo-400 transition-colors">
