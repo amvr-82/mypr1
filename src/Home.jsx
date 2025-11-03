@@ -6,8 +6,8 @@ import axios from "axios";
 
 function Home() {
   const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(false); // اضافه برای وضعیت لودینگ
-  const [error, setError] = useState(null); // اضافه برای هندل ارور
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     axios
