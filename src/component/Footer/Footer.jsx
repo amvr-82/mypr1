@@ -18,7 +18,7 @@ function Footer() {
           </h2>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="hover:text-white transition-all">
+              <a href="#khane" className="hover:text-white transition-all">
                 خانه
               </a>
             </li>
