@@ -3,10 +3,40 @@
     "status": true,
     "data": [
       {
-        "id": 0,
-        "imageUrl": "datad",
-        "title": "dad",
-        "readingTime": 5
+        "id": 6,
+        "imageUrl": "./src/assets/aks.avif",
+        "title": "dad6",
+        "readingTime": 56
+      },
+      {
+        "id": 5,
+        "imageUrl": "./src/assets/aks.avif",
+        "title": "dad5",
+        "readingTime": 55
+      },
+      {
+        "id": 4,
+        "imageUrl": "./src/assets/aks.avif",
+        "title": "dad4",
+        "readingTime": 54
+      },
+      {
+        "id": 3,
+        "imageUrl": "./src/assets/aks.avif",
+        "title": "dad3",
+        "readingTime": 53
+      },
+      {
+        "id": 2,
+        "imageUrl": "./src/assets/aks.avif",
+        "title": "dad2",
+        "readingTime": 52
+      },
+      {
+        "id": 1,
+        "imageUrl": "./src/assets/aks.avif",
+        "title": "dad1",
+        "readingTime": 51
       }
     ]
   }
